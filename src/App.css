@@ -1,0 +1,51 @@
+.recorder-container {
+  max-width: 400px;
+  margin: 60px auto;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.record-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.record-btn:hover {
+  background-color: #c0392b;
+}
+
+.stop-btn {
+  background-color: #27ae60;
+  color: white;
+}
+
+.stop-btn:hover {
+  background-color: #1e8449;
+}
+
+.player audio {
+  width: 100%;
+  margin-top: 10px;
+}
